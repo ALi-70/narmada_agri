@@ -1,0 +1,538 @@
+  *{
+    padding: 0px;
+    margin: 0px;
+  }
+body{
+  width: 100%;
+  height: auto;
+  padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+ul, li{
+  padding: 0px;
+    margin: 0px;
+}
+
+  .header-top{
+      background: #87c03d;
+    }
+
+    .header-top ul{
+      padding: 0px;
+      margin: 0px;
+    }
+    .header-top ul li{
+      padding: 0px;
+      margin: 0px 10px;
+      list-style: none;
+      display: inline-block;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 2px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      
+    }
+    .header-top ul li a{
+      text-decoration: none;
+      color: #fff;
+      font-family: inter-sans-serif;
+
+    }
+    .header-top .top-header-social  li{
+      margin: 0px;
+      color: #fff;
+      margin-right: 5px;
+    }
+    .header-top .top-header-social  li a{
+      color: #fff;
+    }
+    .header-top .top-header-social li:last-child{
+      /*background: #ccc;*/
+      background: #efb443;
+      padding: 10px 10px
+    }
+
+
+    /*.header-top .top-header-social li:nth-child(2) a{
+      color: black;
+    }*/
+
+    .header-top a:hover{
+       color:#333;
+    }
+
+   .header-top .top-header-social  a:hover{
+      color: #333;
+    }
+
+   .nav-link-text{
+    color: #7e7264;
+    font-family: inter-sans-serif;
+    padding: 10px;
+    font-size: 17px;
+   }
+
+   /*  nav bar  */
+   .narmada{
+  color: #3c6606;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 7px;
+  font-family: inter-sans-serif;
+}
+
+  /*.navbar-toggler-icon{
+    border: none !important;
+    color: #87c03d !important;
+  }*/
+
+   .fa-shopping-basket{
+    background: #87c03d;
+    color: #fff;
+    padding:5px;
+    margin: 0;
+    border-radius: 3px;
+   }
+
+   .footer-color{
+    color:#fff;
+    background: #015a44;
+   }
+
+   .top-footer-social li{
+      padding: 0px;
+      margin: 0px 10px 0px 0px;
+      list-style: none;
+      display: inline-block;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 2px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      
+    }
+
+    .top-footer-social ul{
+      margin:0;
+      padding: 0;
+      float: left;
+    }
+
+    .footer-icon{
+       color: #fff;
+       margin: 0;
+       float: left;
+
+    }
+
+    .carousel-div{
+        max-height: 300px;
+        max-width: 500px; 
+    }
+
+    .carousel-div img{
+      max-height: 300px;
+      max-width: 300px;
+    }
+
+    .carousel-bg{
+      background: url("../images/top_carousel_bg.png") no-repeat;
+    }
+
+    .owl-theme .owl-nav{
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 40px;
+      left: 0px;
+      right: 0px;
+      display: flex;
+      justify-content: space-between;
+      color: #3c6606 !important;
+      opacity: 1 !important;
+      padding: 50px!important;
+
+    }
+
+    .owl-theme .owl-nav button{
+      background: #87c03d !important;
+      font-size: 50px !important;  
+      margin-left: 50px !important;
+      margin-right: 50px !important;
+      opacity: .5;
+      border-radius: 0px !important;
+    }
+
+    .owl-theme .owl-nav button:hover{
+      opacity: 1;
+    }
+
+
+    .prev-button-bg{
+      background: #b6c6a5;
+      max-height: 50px;
+      max-width: 50px;
+      padding: 20px;
+      justify-content: space-between;
+
+    }
+
+    .prev-button-icon i{
+      color: #3c6606;
+      max-height: 50px;
+      max-width: 50px;
+      font-weight: bold;
+    }
+
+    .carousel-text-1{
+      color: #3c6606;
+      font-family: inter-sans-serif;
+      text-align: center; 
+    }
+
+    .carousel-text-1-1{
+      color: #3c6606;
+      font-family: lobster;
+      text-align: center; 
+
+    }
+
+    .carousel-text-1-2{
+      color: #87c03d;
+      font-family: lobster;
+      text-align: center; 
+
+    }
+
+    .carousel-text-2{
+      font-family: inter-sans-serif;
+      text-align: center;
+    }
+
+    .carousel-shopnow-1{
+     background: #87c03d;
+     color: #fff;
+     border-radius: 20px;
+     border:2px #87c03d solid;
+     margin-right: 100px;
+     margin-top: 20px;
+     font-size: 20px;
+   }
+
+   .carousel-shopnow-2{
+     background: #fff;
+     border-color: ;
+     color: #87c03d;
+     border-radius: 20px;
+     border:2px #87c03d solid;
+     margin-right: 100px;
+     margin-top: 20px;
+     font-size: 20px;
+   }
+
+
+
+    /*New Code 23 Nov*/
+     span .img-text {
+    text-decoration: none;
+    outline: none;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    cursor: pointer;
+    width: 100%;
+    font-size: 23px;
+    display: block;
+    text-transform: capitalize;
+  }
+  span.img-text:hover {
+    color: #2caae1;
+  }
+
+
+/*new CODE */
+.what_header{
+  text-align: center;
+  color: #3c6606;
+}
+
+.what_header2{
+  color:#87c03d;
+}
+
+.shopnow{
+  background: #87c03d;
+  color: #fff;
+  border-radius: 20px;
+  border:none;
+  margin-right: 100px;
+}
+
+.get_off{
+  color: #3c6606;
+}
+
+
+
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 50px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/*new_code 18nov orange and lemon Cards*/
+.orange_card{  
+    width: auto;
+    margin: 0px;
+    padding: 2rem;
+    border-radius: 5px;
+    border: none;
+    text-align: left;
+}
+
+.orange-bg{
+      background: url("images/orange_card.png") no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+
+.card-text{
+  font-family: 'inter-sans-serif';
+  color: #000;
+  
+}
+
+
+
+
+.lemon_card{  
+    width: auto;
+    margin: 0px;
+    padding: 2rem;
+    border-radius: 5px;
+    border: none;
+    text-align: left;
+}
+
+.lemon-bg{
+      background: url("images/lemon_card.png") no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+
+
+/*New Code 18 Nov Night*/
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #87c03d; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding-left: 11px; /* Some padding */
+  line-height: 38px; 
+  border-radius: 100px; /* Rounded corners */
+  font-size: 30px; /* Increase font size */
+  height: 40px;
+  width: 40px;
+}
+
+
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+.delivery_boy img{
+  height: 400px;
+    width: 380px;
+    padding: 15px;
+    margin-left: 60px;
+}
+
+.we_header{
+  text-align: center;
+  color: #3c6606;
+}
+
+.we_header2{
+  color:#87c03d;
+}
+
+.organic-text{
+  font-family: 'inter-sans-serif';
+  color: #000;
+  font-size: 17px;
+  
+}
+
+.organic-text2{
+  font-family: 'inter-sans-serif';
+  color: #000;
+  font-size: 17px;
+  font-weight:0px;
+  
+}
+
+.straw-text-1{
+  color: #87c03d;
+  font-family: 'inter-sans-serif';
+  font-size: 17px;
+  font-weight:0px;
+}
+
+.straw-text-2{
+  color: #3c6606;
+  font-family: 'inter-sans-serif';
+  font-size: 20px;
+  font-weight:bold;
+}
+
+/*--------- nitish css file*/
+
+
+.about-btn{
+  background: #87c03d;
+  color: #fff;
+  border-radius: 20px;
+  border:none;
+  margin-right: 100px;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.starwberry-photo img{
+  width: 200px;
+  height: 200px;
+}
+
+.tab-size{
+  max-width: 200px;
+  max-height: auto;
+}
+
+/*.users-bg{
+  background: #87c03d;
+  background-size: 80px;
+  border-radius: 1000px;
+  font-size: 20px;
+  padding: 10px;
+  margin: 0px;
+  text-align: center;
+}*/
+
+.users-bg img{
+  height: 20px;
+  width: 20px;
+}
+
+
+.agrofarm-headers{
+  color:#3c6606;
+  font-size: 20px;
+  margin-left: 100px;
+
+}
+
+/*for contact us section*/
+
+.contact{
+  color: #3c6606;
+  font-weight: bold;
+  font-family: inter-sans-serif;
+  
+}
+.feel{
+  color: #87c03d;
+  font-weight: bold;
+  font-family: inter-sans-serif;
+  margin-left: 6px;
+}
+
+
+.btn-submit{
+  font-family: "inter-sans-serif";
+  background: #015a44;  
+  font-weight: bold;
+}
+
+.btn-submit:hover{
+  color:#000;
+  background:#87c03d;
+  border: 1px solid black;
+}
+
+.get-touch{
+  font-family: "inter-sans-serif";
+  background: #015a44;  
+}
+
+
+.contact-bg{
+  background: url("../images/berries_farm.jpg") no-repeat;
+  /*background-size: 1265px 889px;*/
+  background-size: 1265px 889px;
+}
+
+.contact-header{
+  background:#fff;
+}
+
+
+.touch-headers{
+  text-align: left;
+}
+
+.get-touch-headers{
+  background:#87c03d;
+}

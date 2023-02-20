@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Narmada Agri</title>
+
+	
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"> 
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+
+<!-- <link rel="stylesheet" type="text/css" href="index.css"> -->
+
+<style>
+.main-box{
+/*margin-left: 6px;*/
+padding: 113px;
+}
+
+.container {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  text-align: center !important;
+  margin: 5px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease;
+}
+
+.container:hover .overlay {
+  display: block;
+  background: rgba(0, 0, 0, .3);
+}
+
+img {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  left: 0;
+}
+
+.title {
+  position: absolute;
+  width: 250px;
+  left: 0;
+  top: 120px;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  z-index: 1;
+  transition: top .5s ease;
+}
+
+.container:hover .title {
+  top: 90px;
+}
+
+.button {
+  position: absolute;
+  width: 250px;
+  left:0;
+  top: 180px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+.button a {
+  width: 200px;
+  padding: 12px 48px;
+  text-align: center;
+  color: white;
+  border: solid 2px white;
+  background: #87c03d;
+  font-size: 17px;
+  z-index: 1;
+
+}
+
+.container:hover .button {
+  opacity: 1;
+}
+
+.berry-icon{
+ background: #87c03d;
+ columns: #fff;
+ padding: 10px;
+ font-size: 30px;
+ border-radius: 7px;	
+}
+
+.card-body{
+	height: 113px;
+}
+
+.card{
+	border-radius:0px;
+	border-color: #fff; 
+	margin: 2px;
+	align-items: center !important;
+}
+
+.card:hover{
+    border-color:#87c03d;
+}
+
+.star-style{
+  padding-left: 29px;
+}
+
+.star-color i{
+	color: #f3a90b;
+	
+}
+
+.straw-text-1{
+  color: #87c03d;
+  font-family: 'inter-sans-serif';
+  font-size: 17px;
+  font-weight:0px;
+  text-align: center;
+}
+
+.straw-text-2{
+  color: #3c6606;
+  font-family: 'inter-sans-serif';
+  font-size: 20px;
+  font-weight:bold;
+  text-align: center;
+}
+
+.heart-icons{
+  color: #fff;
+}
+
+
+
+</style>
+
+</head>
+
+<body>
+<div class="container-fluid main-box">
+<div class="row cols-4">
+<div class="card">
+   <div class="container">
+  <img src="images/strawberry_berries.png">
+  <p class="title">
+  	<a class="heart-icons" href="#"><i class="fa fa-heart-o berry-icon"></i>
+  	</a>
+  	<a class="heart-icons" href="#"><i class="fa fa-cart-plus berry-icon"></i>
+  	</a>
+  	<a class="heart-icons" href="#"><i class="fa fa-eye berry-icon"></i>
+  	</a>
+  </p>
+  <div class="overlay"></div>
+  <div class="button"><a href="#"> Add to Cart </a></div>
+     </div>
+   <div class="card-body">
+       <h6 class="card-title straw-text-1">Fresh Fruits</h6>
+       <a href="#" class="straw-text-2">Fresh Strawberry</a>
+       </br>
+    <div class="star-style star-color">
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star-half-o"></i>
+    </div>
+    </div>    
+</div>
+
+
+
+
+</div>
+</div>
+
+
+</body>
+</html>
